@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title> Formulaire </title>
+        <link rel="stylesheet" type="text/css" href="bb.css">
+    </head>
+
+<body class="body2">
+<h1 class="h1a"> Remplire Les deux Formulaires SVP !!   </h1>
+
+    <form name="formmulaire1" method="POST" action="">
+            <div class="div1">
+        <fieldset> <legend> cordonée </legend>
+        
+         <!--  les champs sont  obligatoire -->   
+        <label> Nom </label> <input type="text" size="25" placeholder="exemple: ahmed" aurofocus required/> <br>  
+        <label> Email </label> <input type="text" size="25" placeholder="email@exemple.com" required/> <br>
+        <label> mot de passe</label> <input type="text" size="25" placeholder="*********" required/> <br>
+        <hr>
+        <label> Age </label> <input type="text" placeholder="22 yo" /><br>
+       <select name="genre" autofocus>
+            <option name="sexe" value="male">male</option>
+            <option name="sexe" value="femme">femme</option>
+       </select> <br>    
+       <input type="submit" value="register" size="25"/>
+        </fieldset>
+            </div>
+        </form>
+
+<div class="divform2">
+<fieldset> <legend> Domaine d'activité </legend>
+
+    <div class="div3">
+<label> choisir votre sport </label>
+        <input type="checkbox" name="domaine" value="1">  Foot 
+        <input type="checkbox" name="domaine" value="2" > Basket
+        <input type="checkbox" name="domaine" value="3" > Tennis
+        <input type="checkbox" name="domaine" value="4" > autre
+    </div>
+
+<fieldset> <legend> Commentaire </legend>
+    <div class="div4">
+<label> Expliquer Pourquoi vous choissir cette passion : </label><br>
+        <textarea name="commentaire" cols="40" rows="7">
+ecrivez ici...
+        </textarea> <br>
+</fieldset>        
+    </div>
+
+<fieldset> <legend> Button </legend>
+   <div class="div5">
+        <input type="reset" name="annuler" value="efface les donner" size="25">
+        <input type="submit" name="envoi" value="envoyer les donner" size="25">        
+</fieldset>
+    </div>
+
+</fieldset>
+</div>
+
+
+
+<div class="div6">
+<footer>
+  <p>Posted by: Cherif Rached </p>
+  <p>Contact information: <a href="mailto: rached61@hotmail.fr">rached61@hotmail.fr</a></p>
+</footer>
+</div>
+</body>
+
+
+
+</html>
